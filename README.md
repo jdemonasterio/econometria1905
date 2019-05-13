@@ -12,10 +12,13 @@ After that, you'll use the `Pipfile` at the root of this repo to install all nce
 then `pipenv install --dev --skip-lock`
 
 This operation will install important packages for this repo such as 
-
+```
+- jupyter
+- nbconvert
+- jupyter-contrib-nbextensions
+```
 Also the following 2 packages, which lets us export `.ipynbs` files to pdfs via latex.
 You'll have to have Latex installed in your environment, so see how to do that in the following guide:
-
 https://nbconvert.readthedocs.io/en/latest/install.html
 https://jupyter-contrib-nbextensions.readthedocs.io/en/latest/install.html
 
