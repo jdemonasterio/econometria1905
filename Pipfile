@@ -1,0 +1,22 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+ipdb = "*"
+pre-commit = "*"
+ipywidgets = "*"
+xlrd = "*"
+pylint = "*"
+flake8 = "*"
+
+[packages]
+ipython = "*"
+jupyter = "*"
+pyyaml = "~=5.1"
+nbconvert = "*"
+jupyter-contrib-nbextensions = "*"
+
+[requires]
+python_version = "3.7"
