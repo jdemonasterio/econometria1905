@@ -24,3 +24,8 @@ From this [guide](https://nbconvert.readthedocs.io/en/latest/usage.html) the ide
 `jupyter nbconvert --to pdf your_file.ipynb`
 and have the output pdf be returned to the local directory.
 
+
+## Removing all code cells
+Following this [stackoverflow answer](https://stackoverflow.com/questions/31517194/how-to-hide-one-specific-cell-input-or-output-in-ipython-notebook)
+
+`jupyter nbconvert --TemplateExporter.exclude_code_cell=True --to pdf Tercer_TP.ipynb`
