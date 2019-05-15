@@ -13,10 +13,10 @@ flake8 = "*"
 
 [packages]
 ipython = "*"
-jupyter = "*"
 pyyaml = "~=5.1"
 nbconvert = "*"
 jupyter-contrib-nbextensions = "*"
+notebook = ">=5.6.0"
 
 [requires]
 python_version = "3.7"
