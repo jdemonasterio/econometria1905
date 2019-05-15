@@ -42,5 +42,5 @@ Later we'll launch the `.ipynb` file and select from the top-menu: `View > Cell 
 Each cell will now have a Tags toolbar where we'll be able to add the `"remove_cell"` tag.
 
 Finally after selecting cells and adding the tag, we  *save the .ipynb file*, then run:
-`jupyter nbconvert --TagRemovePreprocessor.remove_cell_tags='{"remove_cell"}' --to pdf Tercer_TP.ipynb`
+`jupyter nbconvert --TagRemovePreprocessor.remove_cell_tags='{"remove_cell"}' --to pdf Tercer_TP_tagged.ipynb`
 to get a nice .pdf without the removed cells :)
